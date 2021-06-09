@@ -67,7 +67,7 @@ createColorList();
  */
 const turnContainerYellow = () => {
   // grab all divs with a class of 'container'
-  const container = [...document.querySelectorAll('.container')];
+  const container = document.querySelectorAll('.container');
 
   // turn nodelist into an array
   const containerArray = [...container];
