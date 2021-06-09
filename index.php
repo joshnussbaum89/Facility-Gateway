@@ -137,7 +137,7 @@ function averageTemps($temps)
     sort($temps);
     $ascendingTempArray = [];
 
-    // Loop through and echo sorted temps
+    // Loop through and add sorted temps to ascendingTempArray
     for ($i = 0; $i < $tempLength; $i++) {
         array_push($ascendingTempArray, $temps[$i]);
     }
@@ -146,7 +146,7 @@ function averageTemps($temps)
     rsort($temps);
     $descendingTempArray = [];
 
-    // Loop through and echo sorted temps
+    // Loop through and add sorted temps to descendingTempArray
     for ($i = 0; $i < $tempLength; $i++) {
         array_push($descendingTempArray, $temps[$i]);
     }
